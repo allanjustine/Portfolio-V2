@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { AOSProvider } from "@/context/aos-init";
 import { Toaster } from "react-hot-toast";
+const url = "https://portfolio-v2-eta-jade.vercel.app/";
 
 export const metadata: Metadata = {
   title: "Allan Justine Mascariñas - Full-Stack Web Developer",
@@ -13,10 +14,8 @@ export const metadata: Metadata = {
     title: "Allan Justine Mascariñas - Full-Stack Web Developer",
     description:
       "Hi, I'm Allan Justine Mascariñas, a passionate full-stack web developer dedicated to building powerful and efficient web applications.",
-    images: [
-      "https://allanjustine.github.io/Portfolio/images/profile-image.jpg",
-    ],
-    url: "https://allanjustine.github.io/Portfolio/",
+    images: ["/images/profile-image.jpg"],
+    url: url,
     type: "website",
   },
   twitter: {
@@ -24,10 +23,8 @@ export const metadata: Metadata = {
     title: "Allan Justine Mascariñas - Full-Stack Web Developer",
     description:
       "Hi, I'm Allan Justine Mascariñas, a passionate full-stack web developer dedicated to building powerful and efficient web applications.",
-    images: [
-      "https://allanjustine.github.io/Portfolio/images/profile-image.jpg",
-    ],
-    site: "https://allanjustine.github.io/Portfolio/",
+    images: ["/images/profile-image.jpg"],
+    site: url,
   },
 };
 
