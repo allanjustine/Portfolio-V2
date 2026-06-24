@@ -7,15 +7,32 @@ const footerLinks = [
   { href: "#profile", label: "Profile" },
   { href: "#projects", label: "Projects" },
   { href: "#about", label: "About Me" },
+  { href: "#languages", label: "Languages & Tools" },
   { href: "#contact", label: "Contact Me" },
 ];
 
 const socials = [
-  { href: "https://www.facebook.com", icon: "fab fa-facebook-f", label: "Facebook" },
-  { href: "https://www.instagram.com", icon: "fab fa-instagram", label: "Instagram" },
+  {
+    href: "https://www.facebook.com",
+    icon: "fab fa-facebook-f",
+    label: "Facebook",
+  },
+  {
+    href: "https://www.instagram.com",
+    icon: "fab fa-instagram",
+    label: "Instagram",
+  },
   { href: "https://x.com", icon: "fa-brands fa-x-twitter", label: "X" },
-  { href: "https://www.linkedin.com", icon: "fa-brands fa-linkedin-in", label: "LinkedIn" },
-  { href: "https://github.com/allanjustine", icon: "fab fa-github", label: "GitHub" },
+  {
+    href: "https://www.linkedin.com",
+    icon: "fa-brands fa-linkedin-in",
+    label: "LinkedIn",
+  },
+  {
+    href: "https://github.com/allanjustine",
+    icon: "fab fa-github",
+    label: "GitHub",
+  },
 ];
 
 export default function Footer() {
@@ -27,11 +44,16 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h2 className="text-xl font-bold text-white mb-2">&lt;Allan /&gt;</h2>
+            <h2 className="text-xl font-bold text-white mb-2">
+              &lt;Allan /&gt;
+            </h2>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Full-Stack Web Developer passionate about building powerful and efficient web applications.
+              Full-Stack Web Developer passionate about building powerful and
+              efficient web applications.
             </p>
-            <p className="text-xs text-gray-500 mt-3">SMCT Group of Companies · J.A Clarin, Tagbilaran, Bohol</p>
+            <p className="text-xs text-gray-500 mt-3">
+              SMCT Group of Companies · J.A Clarin, Tagbilaran, Bohol
+            </p>
           </div>
 
           <div>
@@ -82,7 +104,8 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-gray-800 text-center">
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear() } Allan Justine Mascariñas. All rights reserved.
+            &copy; {new Date().getFullYear()} Allan Justine Mascariñas. All
+            rights reserved.
           </p>
         </div>
       </div>
