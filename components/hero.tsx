@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const roles = [
   "Full-Stack Web Developer",
-  "Laravel, Livewire, Next.js, React.js, Vue.js Engineer",
+  "Laravel, Livewire, Next.js, React.js, Vue.js, Inertia.js Engineer",
   "Web Development Enthusiast",
 ];
 

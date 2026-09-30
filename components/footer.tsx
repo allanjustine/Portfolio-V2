@@ -51,9 +51,9 @@ export default function Footer() {
               Full-Stack Web Developer passionate about building powerful and
               efficient web applications.
             </p>
-            <p className="text-xs text-gray-500 mt-3">
-              SMCT Group of Companies · J.A Clarin, Tagbilaran, Bohol
-            </p>
+            {/* <p className="text-xs text-gray-500 mt-3">
+              -
+            </p> */}
           </div>
 
           <div>
