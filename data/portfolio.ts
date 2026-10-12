@@ -178,7 +178,7 @@ export const tools = [
   },
   {
     src: "https://avatars.githubusercontent.com/u/7535935?s=200&v=4",
-    name: "NestJS",
+    name: "Spatie",
     index: 4,
   },
   {
@@ -288,7 +288,7 @@ export const tools = [
   },
   {
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1v6TMElRDdDqPYcrbQVOFSGiaFnXRDIZF9Q&s",
-    name: "TypeScript",
+    name: "Font Awesome",
     index: 26,
   },
   {
@@ -298,11 +298,11 @@ export const tools = [
   },
   {
     src: "https://ih1.redbubble.net/image.4053536786.3862/pp,504x498-pad,600x600,f8f8f8.u1.jpg",
-    name: "PHP",
+    name: "NestJS",
     index: 28,
   },
   {
-    src: "https://imgs.search.brave.com/P77vz8f_CSDPRp_02Y9kyUC1lz8r_FePsp7pa7fY7AU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdo/ZHByby5jb20vd3At/Y29udGVudC90aGVt/ZXMvcG5naGRwcm8v/ZG93bmxvYWQvc29j/aWFsLW1lZGlhLWFu/ZC1icmFuZHMvbmV4/dC1qcy1sb2dvLWlj/b24ucG5n",
+    src: "https://camo.githubusercontent.com/77adf5f52c8ec6ef1ebdd7008fed216c006cb190941c7f379f6b9b8c212bdeef/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6461726b5f6261636b67726f756e642e706e67",
     name: "Next.js",
     index: 29,
   },
@@ -333,7 +333,7 @@ export const tools = [
   },
   {
     src: "https://imgs.search.brave.com/oS6Gsk_NJANFq48dTCY-MYBvtOw5oDUlec_jmcMSFM0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MmE5YzdjMDhmZjY0/NDFhMjk1MmRhZDMu/cG5n",
-    name: "Pusher",
+    name: "Docker",
     index: 35,
   },
 ];
