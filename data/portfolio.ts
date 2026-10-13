@@ -3,7 +3,7 @@ export const projects = [
     title: "Product Sales & Inventory System",
     images: ["/images/9.png", "/images/6.png"],
     github: "https://github.com/allanjustine",
-    live: "https://e-commerce.smctgroup.ph/",
+    live: "https://store.ajmapp.online/",
   },
   {
     title: "Computer Monitoring System",
