@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { AOSProvider } from "@/context/aos-init";
 import { Toaster } from "react-hot-toast";
+import CustomCursor from "@/components/custom-cursor";
 const url = "https://portfolio-v2-eta-jade.vercel.app/";
 
 export const metadata: Metadata = {
@@ -47,6 +48,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/logo/icon.png" type="image/x-icon" />
       </head>
       <body className="overflow-x-hidden text-gray-800 bg-gray-100">
+        <CustomCursor />
         <AOSProvider>{children}</AOSProvider>
         <Toaster />
       </body>
