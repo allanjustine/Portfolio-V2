@@ -1,0 +1,14 @@
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    container_name: portfolio
+    ports:
+      - "3000:3000"
+    networks:
+      - web
+networks:
+  web:
+    external: true
