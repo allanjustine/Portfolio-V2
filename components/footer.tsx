@@ -64,7 +64,7 @@ export default function Footer() {
                   <button
                     type="button"
                     onClick={handleScroll(l.href)}
-                    className={`text-sm transition-all duration-200 hover:text-cyan-400 hover:translate-x-1 inline-flex items-center gap-1.5 ${
+                    className={`text-sm transition-all duration-200 cursor-none hover:text-cyan-400 hover:translate-x-1 inline-flex items-center gap-1.5 ${
                       active === l.href ? "text-cyan-400" : "text-gray-400"
                     }`}
                   >

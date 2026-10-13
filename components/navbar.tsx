@@ -54,7 +54,7 @@ export default function Navbar() {
               key={l.href}
               type="button"
               onClick={() => handleLinkClick(l.href)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
+              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all duration-200 cursor-none ${
                 active === l.href
                   ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/30"
                   : "text-cyan-500 hover:text-cyan-300 hover:bg-white/10"
