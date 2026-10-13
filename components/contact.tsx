@@ -161,7 +161,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full flex items-center justify-center gap-2 py-3 font-semibold text-white bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl hover:from-cyan-400 hover:to-teal-400 transition-all duration-300 hover:-translate-y-0.5 shadow-md shadow-cyan-200 hover:shadow-lg hover:shadow-cyan-300"
+              className="w-full flex items-center justify-center gap-2 py-3 font-semibold cursor-none text-white bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl hover:from-cyan-400 hover:to-teal-400 transition-all duration-300 hover:-translate-y-0.5 shadow-md shadow-cyan-200 hover:shadow-lg hover:shadow-cyan-300"
             >
               <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
                 <path
