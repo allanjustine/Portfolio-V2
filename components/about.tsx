@@ -120,8 +120,8 @@ export default function About() {
                 Hire Me
               </a>
               <a
-                href="/files/My-Resume.pdf"
-                download="My-Resume.pdf"
+                href="/files/Allan-Justine-Mascariñas.pdf"
+                download="Allan-Justine-Mascariñas.pdf"
                 target="_blank"
                 className="w-full flex items-center justify-center gap-2 py-2.5 font-semibold text-cyan-600 border-2 border-cyan-400 rounded-xl hover:bg-cyan-50 transition-all duration-300 hover:scale-105 text-sm"
               >
