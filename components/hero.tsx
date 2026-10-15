@@ -90,8 +90,8 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="/files/My-Resume.pdf"
-            download="My-Resume.pdf"
+            href="/files/Allan-Justine-Mascariñas.pdf"
+            download="Allan-Justine-Mascariñas.pdf"
             target="_blank"
             className="flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-white bg-cyan-500 rounded-full hover:bg-cyan-400 hover:-translate-y-1 transition-all duration-300 shadow-lg shadow-cyan-500/30"
           >
