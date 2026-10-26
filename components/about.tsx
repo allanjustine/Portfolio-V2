@@ -38,13 +38,24 @@ export default function About() {
       ],
     },
     {
+      icon: "fa-solid fa-briefcase",
+      title: "Work Experience",
+      items: [
+        {
+          label: "SMCT Group of Companies",
+          value:
+            "Web Developer • 2024-2026 • React.js, Next.js, TypeScript, Laravel, TailwindCSS, ShadCN, MaterialUI, DaisyUI, Cloudeflare, Docker, Redis, XAMPP",
+        },
+      ],
+    },
+    {
       icon: "fa-solid fa-code",
       title: "Tech Stack",
       items: [
         {
           label: "Skills",
           value:
-            "Laravel, Livewire, React, Vue, Next, Inertia, Nest, HTML, CSS, Alpine, Tailwind, Bootstrap, MySQL, and more.",
+            "Laravel, Livewire, React.js, Vue.js, Next.js, Inertia.js, Alpine.js, Nest.js, HTML, CSS, TailwindCSS, Bootstrap, MySQL, and more.",
         },
       ],
     },
