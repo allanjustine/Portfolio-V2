@@ -152,7 +152,7 @@ export default function Contact() {
                 rows={5}
                 value={form.message}
                 onChange={(e) => handleChange("message", e.target.value)}
-                placeholder="Tell me about your project..."
+                placeholder="Tell me about your project or inquiry..."
                 className={inputClass}
               />
               {errors.message && (
